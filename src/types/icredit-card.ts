@@ -3,3 +3,7 @@ interface ICreditCard {
     calcDate: Date;
     minimumPrice: number;
 }
+
+interface ITheCreditCard extends ICreditCard{
+    id: string;
+}
