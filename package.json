@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.61",
+    "bootstrap": "^5.3.2",
     "react": "^18.2.0",
     "react-addons-update": "^15.6.3",
     "react-dom": "^18.2.0",

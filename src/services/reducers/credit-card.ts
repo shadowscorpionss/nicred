@@ -2,12 +2,12 @@ import update from 'react-addons-update';
 import { ADD_CREDIT_CARD, REMOVE_CREDIT_CARD, TCreditCardActions, UPDATE_CREDIT_CARD } from "../actions/credit-card";
 
 
-const inititialState: ICreditCardStorage = {
+const initial: ICreditCardStorage = {
     cards: []
 }
 
 
-export const creditCardReducer = (state = inititialState, action: TCreditCardActions) => {
+export const creditCardReducer = (state = initial, action: TCreditCardActions):ICreditCardStorage => {
     switch (action.type) {
         case ADD_CREDIT_CARD:
             return { ...state, cards: [...state.cards, action.payload] };
